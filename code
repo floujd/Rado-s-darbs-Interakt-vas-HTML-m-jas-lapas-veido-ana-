@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaunumu un Informācijas Portāls</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">InfoZiņas</div>
+        <nav>
+            <ul>
+                <li><a href="#">Sākums</a></li>
+                <li><a href="#">Ziņas</a></li>
+                <li><a href="#">Bizness</a></li>
+                <li><a href="#">Tehnoloģijas</a></li>
+                <li><a href="#">Veselība</a></li>
+                <li><a href="#">Kontakti</a></li>
+            </ul>
+            <input type="text" placeholder="Meklēt">
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Jaunākās ziņas un aktualitātes</h1>
+        <p>Uzticamas ziņas par notikumiem Latvijā un pasaulē</p>
+        <button>Lasīt jaunākās ziņas</button>
+    </section>
+    
+    <section class="news">
+        <div class="news-item">
+            <img src="https://cdn.pixabay.com/photo/2016/11/29/03/53/stock-1863880_960_720.jpg" alt="Ekonomika">
+            <h2>Ekonomika: kā investēt 2025. gadā?</h2>
+            <p>Finanšu eksperti iesaka jaunas stratēģijas investīcijām un biznesam nākamajā gadā.</p>
+            <a href="#">Lasīt vairāk</a>
+        </div>
+        <div class="news-item">
+            <img src="https://cdn.pixabay.com/photo/2017/12/29/11/06/earth-3043067_960_720.jpg" alt="Pasaules notikumi">
+            <h2>Pasaules notikumi: klimata pārmaiņas</h2>
+            <p>Jaunākie pētījumi par globālās sasilšanas ietekmi uz Eiropu.</p>
+            <a href="#">Lasīt vairāk</a>
+        </div>
+        <div class="news-item">
+            <img src="https://cdn.pixabay.com/photo/2015/03/26/09/54/abstract-690233_960_720.jpg" alt="Tehnoloģijas">
+            <h2>Tehnoloģijas: mākslīgais intelekts 2025</h2>
+            <p>Kā mākslīgais intelekts mainīs uzņēmējdarbību un ikdienu?</p>
+            <a href="#">Lasīt vairāk</a>
+        </div>
+    </section>
+    
+    <section class="ads">
+        <h2>Reklāmas piedāvājums</h2>
+        <img src="https://cdn.pixabay.com/photo/2015/01/15/18/27/diagonal-600468_960_720.jpg" alt="Reklāma">
+        <p>Piesakies jaunajam investīciju kursam ar 30% atlaidi!</p>
+        <button class="buy">Pirkt</button>
+        <button class="try">Izmēģināt</button>
+    </section>
+    
+    <section class="carousel">
+        <h2>Foto galerija</h2>
+        <button class="prev">&#8592;</button>
+        <div class="slider">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="Daba">
+            <img src="https://cdn.pixabay.com/photo/2016/11/18/17/20/aurora-1839974_960_720.jpg" alt="Aurora">
+            <img src="https://cdn.pixabay.com/photo/2015/03/26/09/54/abstract-690233_960_720.jpg" alt="Abstrakts">
+        </div>
+        <button class="next">&#8594;</button>
+    </section>
+    
+    <section class="health">
+        <h2>Veselības padomi</h2>
+        <div class="health-item">
+            <img src="https://cdn.pixabay.com/photo/2016/03/26/22/13/vegetables-1281939_960_720.jpg" alt="Veselīgs uzturs">
+            <h3>Kā ēst veselīgāk?</h3>
+            <p>Eksperti iesaka piecas pārtikas grupas, kas uzlabo veselību.</p>
+        </div>
+        <div class="health-item">
+            <img src="https://cdn.pixabay.com/photo/2017/08/07/19/31/yoga-2607175_960_720.jpg" alt="Sports">
+            <h3>Fiziskās aktivitātes katru dienu</h3>
+            <p>Kā 30 minūtes fizisko aktivitāšu var uzlabot garastāvokli?</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="contact">
+            <h2>Kontakti</h2>
+            <p><strong>E-pasts:</strong> info@infozinas.lv</p>
+            <p><strong>Telefons:</strong> +371 12345678</p>
+            <p><strong>Adrese:</strong> Brīvības iela 100, Rīga, Latvija</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Sākums</a></li>
+                <li><a href="#">Ziņas</a></li>
+                <li><a href="#">Tehnoloģijas</a></li>
+                <li><a href="#">Veselība</a></li>
+                <li><a href="#">Kontakti</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2025 InfoZiņas - Visas tiesības aizsargātas.</p>
+    </footer>
+</body>
+</html>
